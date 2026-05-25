@@ -9,8 +9,9 @@ Create a Python environment with CUDA-enabled PyTorch, then install the required
 ```bash
 conda create -n LoRAWeaver python=3.10
 conda activate LoRAWeaver
-pip install -r requirements.txt
 pip install -e peft/
+pip install -r requirements.txt
+
 ```
 
 The code uses Llama 2 base models from Hugging Face:
