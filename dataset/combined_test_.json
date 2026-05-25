@@ -1,0 +1,9 @@
+[
+    {
+        "inputs": "Generate a sentence that describes the following data: Abraham A. Ribicoff, spouse, Casey Ribicoff; Casey Ribicoff, birthPlace, Chicago; Abraham A. Ribicoff, office, \"United States Secretary of Health, Education, and Welfare\"",
+        "targets": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "task": "web_nlg_en",
+        "domain": "struct to text",
+        "metric": "rouge"
+    }
+]
