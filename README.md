@@ -7,15 +7,7 @@ This directory contains the code for evaluating layer-wise LoRA adapter retrieva
 Create a Python environment with CUDA-enabled PyTorch, then install the required packages:
 
 ```bash
-conda create -n direct_mixture_review python=3.10
-conda activate direct_mixture_review
-pip install -r requirements.txt
-pip install -e peft/
-```
-
-If using an existing environment named `LoRAWeaver`, activate it instead:
-
-```bash
+conda create -n LoRAWeaver python=3.10
 conda activate LoRAWeaver
 pip install -r requirements.txt
 pip install -e peft/
