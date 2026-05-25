@@ -1,6 +1,6 @@
 # LoRAWeaver Evaluation
 
-This directory contains the code for evaluating layer-wise LoRA adapter retrieval and mixture-based generation.
+
 
 ## Setup
 
