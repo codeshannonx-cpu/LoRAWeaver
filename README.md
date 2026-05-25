@@ -1,4 +1,4 @@
-# LoRA Retriever Evaluation
+# LoRAWeaver Evaluation
 
 This directory contains the code for evaluating layer-wise LoRA adapter retrieval and mixture-based generation.
 
@@ -90,16 +90,4 @@ These adapters are public third-party resources and are not included in this dir
 
 The output JSON contains one record per evaluated example, including the generated answer, reference target, retrieved adapters, layer-wise retrieval results, and run settings.
 
-## Anonymous Submission Notes
 
-Before submitting the code bundle, exclude generated and machine-specific files such as:
-
-- `nohup.out`
-- `__pycache__/`
-- `*.pyc`
-- `*.log`
-- `results/`
-- `cache/`
-- Git metadata such as `.git/`
-
-These files are not required to run the code and may contain local paths or machine-specific metadata.
